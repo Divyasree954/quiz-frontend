@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://quiz-backend-b63l.onrender.com/api',
+  baseURL: 'https://quiz-backend-b63l.onrender.com',
   headers: { 'Content-Type': 'application/json' }
 });
 
