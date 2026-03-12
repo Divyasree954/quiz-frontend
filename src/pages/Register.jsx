@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../components/context/AuthContext';
 
 export default function Register() {
   const [form, setForm] = useState({ username: '', email: '', password: '', role: 'user' });

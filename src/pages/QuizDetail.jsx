@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import api from '../utils/api';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../components/context/AuthContext';
 
 export default function QuizDetail() {
   const { id } = useParams();
